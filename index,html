@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Accessibilty Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav id="split navbar">
+    <header>Web Accessibility</header>
+    <ul>
+      <li><a href="" class="nav-link">Introduction</a></li>
+      <li><a href="#principles" class="nav-link">Principles</a></li>
+      <li><a href="#guidelines" class="nav-link"></a>Guidelines</li>
+      <li><a href="#testing" class="nav-link">Testing</a></li>
+      <li><a href="#resources" class="nav-link"></a>Resources</li>
+    </ul>
+  </nav>
+  <main id="main-doc" class="split">
+    <section class="main-section">
+      <header>Introduction</header>
+      <article>
+        <blockquote>
+          <p>The power of the Web is in its universality. Access by everyone regardless of disability is an
+            essential aspect.</p>
+          <footer>Tim Berners-Lee</footer>
+        </blockquote>
+        <p>The web affords endless opportunities, where someone might have barriers in the physical world, the web is
+          designed for all people. The fundamental principles of the web is suppose to elimate barriers and increase
+          accessibility to people with a diverse range of abilities. </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3f31oufqFSM" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Web accessibility is vital for organizations, as well as, developers in order to achieve high quality
+          websites and web tools that don't exclude people from using their products and services.</p>
+
+        <blockquote>
+          <p>To promote access for persons with disabilities to new information and communications technologies and
+            systems, including the Internet<footer>
+              <h3>The United Nations Convetion on the Rights of Persons with Disabilites</h3>
+            </footer>
+        </blockquote>
+        <p>The United Nations addresses the means of accessing information and communication technologies as a basic
+          human right.</p>
+        <p>There are 3 levels to accessibility
+          <ul>
+            <li>A, basic accessibility</li>
+            <li>AA, the worldwide standard, used for government and public service sites</li>
+            <li>AAA, for dedicated software</li>
+          </ul>
+        </p>
+        <p></p>
+      </article>
+    </section>
+    <section class="main-section" id="principles">
+      <header>Principles</header>
+      <article>
+        <h3>Web Accessibility Standards</h3>
+        <p>Equal access to the web depends on a millieu of factors</p>
+        <ul>
+          <li>Web Content<p>Any part of the website, i.e. text, images, forms, multimedia, markup code, scripts,
+              applications and many more.</p>
+          </li>
+          <li>User Agents<p>The software used to access the web, including desktop graphical browsers, voice browsers,
+              mobile phone browsers, plugins and assistive technologies.</p>
+          </li>
+          <li>Authoring Tools <p>Software or services that people use to produce web content, i.e. code editors, blogs,
+              database scripts and so many more.</p>
+          </li>
+        </ul>
+        <p></p>
+      </article>
+    </section>
+    <section class="main-section" id="guidelines">
+      <header>Guidelines</header>
+      <article>
+
+        <h2>Web Content Accessibility Guidelines: WCAG</h2>
+        https://www.w3.org/WAI/WCAG21/quickref/
+        <h3>Page Title</h3>
+        <p>The title element resides within the head, which is read by screen readers, shown in search engine results,
+          shown in browser tabs and shown in the window title bar. </p>
+        <p>The webpage title is the first thing that a screen reader will access. You must ensure that the title
+          effectfully communicates the content of the page and different pages on the website are able to be discerned.
+        </p>
+        <h3>Image Text Alernatives</h3>
+        <p>These are used by users who can't see the image. Alt tags communicate the purpose of an image. If an image is
+          just decorative and people don't need to know about the image, then it should have null alt (alt=""). </p>
+        <ul>When not to include an alt text
+          <li>The alternative text does not need to include the words "button", "link", or "image of". (Screen readers
+            automatically provide that information.)</li>
+          <li>If the image is not important for understanding the content — for example, it is just decoration or "eye
+            candy" — it should have null alt (alt=""). </li>
+          <li>If the image is sufficiently described in the text — for example, a simple diagram illustrating what's
+            written in the web page text — it can have brief alt text such as "Diagram of work flow as describe above."
+          </li>
+        </ul>
+        <p>
+          alt attribute in HTML (not "alt tag")
+          
+          In HTML (which is web page code, called markup), alt is an attribute of the image element, and other elements. (So "alt tag" is technically incorrect; the correct terminology is "alt attribute", or you can say "alt text".) It looks like this in markup: <img alt="WAI logo" src="/wai/logo.png">
+          </p>
+        <h3>Text</h3>
+        <h3>Interaction</h3>
+        <h3>General</h3>
+        <p></p>
+      </article>
+    </section>
+    <section class="main-section" id="testing">
+      <header>Testing</header>
+      <article>
+        <h2>How do you test the accessibility of a web project?</h2>
+        <p>There are many different ways to use the web besides a mouse and a pair of eyes. Users may navigate with only
+          a keyboard or using their voice. For all the different ways to understand and to interact with a website, it
+          is necessary that the page structure, design and code is properly set up.</p>
+        <p>There are different ways to test the accessibility of the design, code and the content of a website. This
+          page details guidelines for uses, as well as, resources on how to test your work.
+        </p>
+        <h3>Content Checks</h3>
+        <a
+          href="https://make.wordpress.org/accessibility/handbook/best-practices/test-for-web-accessibility-content/">content</a>
+        <h3>Design Checks</h3>
+        <a href="https://make.wordpress.org/accessibility/handbook/test-for-web-accessibility-design/">content</a>
+        <h3>Frontend (DOM) Checks</h3>
+        <a
+          href="https://make.wordpress.org/accessibility/handbook/best-practices/test-for-web-accessibility/test-for-web-accessibility-frontend-code/">content</a>
+      </article>
+    </section>
+    <section class="main-section" id="resources">
+      <header>Resources</header>
+      <article>
+        <p><a href="https://www.w3.org/WAI/intro/wcag">WCAG</a></p>
+        <p><a href="http://validator.w3.org/">Validator</a></p>
+        <p><a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks</a></p>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>
