@@ -1,0 +1,43 @@
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  /* column-count: 2; */
+}
+
+/* .navbar {
+  column-rule: 1px solid #252525; */
+  /* column-width: 100px; */
+}
+
+#main-doc {
+  /* column-width: 800px; */
+}
+/* 
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  width: 50%;
+}
+
+.navbar {
+  left: 0;
+  background-color: #111;
+  width: 20%;
+  float: right;
+  max-width: 50px;
+ }
+
+#main-doc {
+  width: 80%;
+  right: 0;
+  margin-left: 20px;
+  float: right;
+} */
